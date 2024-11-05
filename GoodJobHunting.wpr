@@ -22,5 +22,11 @@ proj.file-list = [loc('main.py')]
 proj.file-type = 'shared'
 proj.launch-config = {loc('main.py'): ('project',
                                        ('',
-        'launch-8CBqACP6z2yRuzEt'))}
+        'launch-8CBqACP6z2yRuzEt')),
+                      loc('mwe/auto_chromedriver_install.py'): ('project',
+        ('',
+         'launch-8CBqACP6z2yRuzEt')),
+                      loc('mwe/auto_gmail_account_create.py'): ('project',
+        ('',
+         'launch-8CBqACP6z2yRuzEt'))}
 proj.main-file = loc('main.py')
