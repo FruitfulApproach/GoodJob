@@ -16,3 +16,5 @@ class AccountCreateDialog(QDialog, Ui_AccountCreateDialog):
     
     def delete_latest_account(self):
         raise NotImplementedError
+    
+    
