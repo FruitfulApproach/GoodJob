@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>714</width>
-    <height>433</height>
+    <width>556</width>
+    <height>180</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -46,7 +46,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>714</width>
+     <width>556</width>
      <height>21</height>
     </rect>
    </property>
@@ -60,9 +60,9 @@
     <addaction name="actionExit"/>
     <addaction name="actionAuto_Save"/>
    </widget>
-   <widget class="QMenu" name="menuJobs">
+   <widget class="QMenu" name="menuCompanies">
     <property name="title">
-     <string>Job Sites</string>
+     <string>Companies</string>
     </property>
     <addaction name="actionAdd_New"/>
     <addaction name="actionEdit_List"/>
@@ -76,21 +76,14 @@
    </widget>
    <widget class="QMenu" name="menuAccounts">
     <property name="title">
-     <string>Accounts</string>
+     <string>Account</string>
     </property>
     <addaction name="actionCreateAccount"/>
     <addaction name="actionEdit_List_2"/>
-    <addaction name="actionSwitch_To"/>
-   </widget>
-   <widget class="QMenu" name="menuOptions_2">
-    <property name="title">
-     <string>Options</string>
-    </property>
    </widget>
    <addaction name="menuOptions"/>
    <addaction name="menuAccounts"/>
-   <addaction name="menuJobs"/>
-   <addaction name="menuOptions_2"/>
+   <addaction name="menuCompanies"/>
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -157,7 +150,7 @@
   </action>
   <action name="actionEdit_List_2">
    <property name="text">
-    <string>Edit List</string>
+    <string>Delete</string>
    </property>
   </action>
   <action name="actionSwitch_To">
